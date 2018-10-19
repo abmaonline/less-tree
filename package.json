@@ -28,8 +28,8 @@
   },
   "dependencies": {
     "fs-extra": "^0.26.3",
-    "lodash": "^3.10.1",
-    "parse-less-import": "abmaonline/parse-less-import#553538f",
+    "lodash": "^4.17.11",
+    "parse-less-import": "https://github.com/abmaonline/parse-less-import/tarball/553538f",
     "treeify": "^1.0.1",
     "vinyl": "^1.1.0"
   }
