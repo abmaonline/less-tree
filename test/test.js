@@ -11,12 +11,16 @@ describe('less-tree', () => {
     tree('a.less', basePath, false).toTreeObject().should.be.eql({
       'b.less': {
         'd.less': {
-          'sub/f.less': {}
+          "sub/f.less": {
+            "sub/e.less": {}
+          }
         }
       },
       'c.less': {
         'd.less': {
-          'sub/f.less': {}
+          "sub/f.less": {
+            "sub/e.less": {}
+          }
         }
       },
       'sub/e.less': {},
@@ -28,9 +32,11 @@ describe('less-tree', () => {
 ├─ b.less
 │  └─ d.less
 │     └─ sub/f.less
+│        └─ sub/e.less
 ├─ c.less
 │  └─ d.less
 │     └─ sub/f.less
+│        └─ sub/e.less
 ├─ sub/e.less
 └─ g.less
    `.trim());
