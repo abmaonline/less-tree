@@ -26,9 +26,9 @@
     "registry": "http://registry.npmjs.org/"
   },
   "dependencies": {
+    "@abmaonline/parse-less-import": "^0.1.0",
     "fs-extra": "^0.26.3",
     "lodash": "^4.17.15",
-    "parse-less-import": "https://github.com/abmaonline/parse-less-import/tarball/553538f",
     "treeify": "^1.0.1",
     "vinyl": "^1.1.0"
   }
