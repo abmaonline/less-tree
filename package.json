@@ -1,5 +1,5 @@
 {
-  "name": "less-tree",
+  "name": "@abmaonline/less-tree",
   "version": "0.0.2",
   "description": "Get less import file tree",
   "main": "index.js",
@@ -8,7 +8,13 @@
     "test-cov": "NODE_ENV=test node ./node_modules/.bin/nyc ./node_modules/.bin/_mocha -- --require should"
   },
   "author": "LingyuCoder",
+  "contributors": [
+    "Matthijs Abma"
+  ],
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "mocha": "^6.2.3",
     "nyc": "^14.1.1",
@@ -16,11 +22,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/LingyuCoder/less-tree"
+    "url": "https://github.com/abmaonline/less-tree"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/LingyuCoder/less-tree/issues"
+    "url": "https://github.com/abmaonline/less-tree/issues"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
