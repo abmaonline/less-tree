@@ -16,9 +16,9 @@
     "lib"
   ],
   "devDependencies": {
-    "mocha": "^6.2.3",
-    "nyc": "^14.1.1",
-    "should": "~13.2.3"
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0",
+    "should": "^13.2.3"
   },
   "repository": {
     "type": "git",
@@ -33,9 +33,12 @@
   },
   "dependencies": {
     "@abmaonline/parse-less-import": "^0.1.0",
-    "fs-extra": "^0.26.3",
+    "fs-extra": "^8.1.0",
     "lodash": "^4.17.15",
-    "treeify": "^1.0.1",
-    "vinyl": "^1.1.0"
+    "treeify": "^1.1.0",
+    "vinyl": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=8"
   }
 }
